@@ -1,1 +1,32 @@
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+  background-color: #FFFAFO;
+}
 
+nav { 
+  background-color: #2F4F4F;
+  padding: 10px;
+}
+
+.menu {
+list-style: none;
+display: flex;
+gap: 20px;
+}
+
+.menu li a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+.menu li a:hover {
+text-decoration: underline;
+}
+
+.page-content {
+  padding: 20px;
+}
